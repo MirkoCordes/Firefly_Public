@@ -1,2 +1,3 @@
 # Firefly_Public
- Created with Unity and C#. Published on IOS, Android and Windows
+ Dieses Projekt wurde mit Unity und C# erstellt und auf den Plattformen Ios, Android und Windows veröffentlicht.
+Mehr Informationen findest du auf <a href="http://www.firefly.gratis" >www.firefly.gratis</a>.
