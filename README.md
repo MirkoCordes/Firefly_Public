@@ -6,4 +6,5 @@ Mehr Informationen findest du auf <a href="http://www.firefly.gratis" >www.firef
 Sie können die Installationsdatei für Windows, so wie die Apk für Android aus dem <b>installs</b> Ordner runterladen.
 <hr />
 <h2>Bilder</h2>
-Auch stehen ihnen Voschaubilder, so wie ein Demovideo zur Verfügung. Diese finden sie im Ordner <b>Gallery</b>. 
+Auch stehen ihnen Voschaubilder, so wie ein Demovideo zur Verfügung. Diese finden sie im Ordner <b>Gallery</b>.
+<img src="Gallery/Screenshots_1.png"/> 
