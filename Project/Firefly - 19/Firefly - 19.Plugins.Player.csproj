@@ -1,0 +1,1578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7518E8B6-7B06-DC66-B036-63A3FB64C907}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-firstpass-player</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>WSAPlayer:21</UnityBuildTarget>
+    <UnityVersion>2019.3.13f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_3_13;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_WINRT;PLATFORM_METRO;UNITY_METRO;UNITY_METRO_API;UNITY_WSA;UNITY_WSA_10_0;UNITY_WINRT_10_0;UNITY_WINRT;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_NETWORK;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;PLATFORM_SUPPORTS_ADS_ID;CURL_STATICLIB;PLATFORM_OVERRIDES_APPLICATION_PACKAGE_NAME;PLATFORM_IMPLEMENTS_ATTACH_DIALOG;DISABLE_PLUGIN_LOAD_WRAPPER;ENABLE_IL2CPP;NET_4_6;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;ENABLE_WINMD_SUPPORT;WINDOWS_UWP;ENABLE_WINMD_SUPPORT;WINDOWS_UWP</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_2019_3_13;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_WINRT;PLATFORM_METRO;UNITY_METRO;UNITY_METRO_API;UNITY_WSA;UNITY_WSA_10_0;UNITY_WINRT_10_0;UNITY_WINRT;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_NETWORK;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;PLATFORM_SUPPORTS_ADS_ID;CURL_STATICLIB;PLATFORM_OVERRIDES_APPLICATION_PACKAGE_NAME;PLATFORM_IMPLEMENTS_ATTACH_DIALOG;DISABLE_PLUGIN_LOAD_WRAPPER;ENABLE_IL2CPP;NET_4_6;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;ENABLE_WINMD_SUPPORT;WINDOWS_UWP;ENABLE_WINMD_SUPPORT;WINDOWS_UWP</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:/Unity2019/2019.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CacheServer">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Jobs.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Jobs.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Serialization.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Serialization.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Scenes.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.DeviceSimulator.Tests.Common">
+      <HintPath>Library/ScriptAssemblies/Unity.DeviceSimulator.Tests.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.BuildUtils">
+      <HintPath>Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid.EndToEnd.Tests">
+      <HintPath>Library/ScriptAssemblies/Unity.Entities.Hybrid.EndToEnd.Tests.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.DeviceSimulator.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Properties.UI.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Properties.UI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Transforms.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Planner.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Planner.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlayableGraphVisualizer.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PlayableGraphVisualizer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets/Plugins/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="UDP">
+      <HintPath>Assets/Plugins/UDP/UDP.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="AppleCore">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Apple/AppleCore.dll</HintPath>
+    </Reference>
+    <Reference Include="AppleMacos">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Apple/AppleMacos.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Security/Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>D:/Unity 3d Projects/Firefly - 19/Library/PackageCache/com.unity.burst@1.3.0-preview.7/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>D:/Unity 3d Projects/Firefly - 19/Library/PackageCache/com.unity.collections@0.7.1-preview.3/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>D:/Unity 3d Projects/Firefly - 19/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.WindowsRuntime">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\il2cpp\BCLExtensions\System.Runtime.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.WindowsRuntime.UI.Xaml">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\il2cpp\BCLExtensions\System.Runtime.WindowsRuntime.UI.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Windows">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.19041.0\Facade\Windows.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.AI.MachineLearning.MachineLearningContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.AI.MachineLearning.MachineLearningContract\3.0.0.0\Windows.AI.MachineLearning.MachineLearningContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract\2.0.0.0\Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Calls.Background.CallsBackgroundContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract\2.0.0.0\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Calls.CallsPhoneContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.CallsPhoneContract\5.0.0.0\Windows.ApplicationModel.Calls.CallsPhoneContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Calls.CallsVoipContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.CallsVoipContract\4.0.0.0\Windows.ApplicationModel.Calls.CallsVoipContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract\2.0.0.0\Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.SocialInfo.SocialInfoContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.SocialInfo.SocialInfoContract\2.0.0.0\Windows.ApplicationModel.SocialInfo.SocialInfoContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.StartupTaskContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.StartupTaskContract\3.0.0.0\Windows.ApplicationModel.StartupTaskContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Custom.CustomDeviceContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Custom.CustomDeviceContract\1.0.0.0\Windows.Devices.Custom.CustomDeviceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.DevicesLowLevelContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.DevicesLowLevelContract\3.0.0.0\Windows.Devices.DevicesLowLevelContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Printers.PrintersContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Printers.PrintersContract\1.0.0.0\Windows.Devices.Printers.PrintersContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract\3.0.0.0\Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.SmartCards.SmartCardEmulatorContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.SmartCards.SmartCardEmulatorContract\6.0.0.0\Windows.Devices.SmartCards.SmartCardEmulatorContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Foundation.FoundationContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Foundation.UniversalApiContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Gaming.XboxLive.StorageApiContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.XboxLive.StorageApiContract\1.0.0.0\Windows.Gaming.XboxLive.StorageApiContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Graphics.Printing3D.Printing3DContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Graphics.Printing3D.Printing3DContract\4.0.0.0\Windows.Graphics.Printing3D.Printing3DContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.Connectivity.WwanContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.Connectivity.WwanContract\2.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.Sockets.ControlChannelTriggerContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.Sockets.ControlChannelTriggerContract\3.0.0.0\Windows.Networking.Sockets.ControlChannelTriggerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Security.Isolation.IsolatedWindowsEnvironmentContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Security.Isolation.IsolatedWindowsEnvironmentContract\2.0.0.0\Windows.Security.Isolation.IsolatedWindowsEnvironmentContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Services.Maps.GuidanceContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.Maps.GuidanceContract\3.0.0.0\Windows.Services.Maps.GuidanceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Services.Maps.LocalSearchContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.Maps.LocalSearchContract\4.0.0.0\Windows.Services.Maps.LocalSearchContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Services.Store.StoreContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.Store.StoreContract\4.0.0.0\Windows.Services.Store.StoreContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Services.TargetedContent.TargetedContentContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.TargetedContent.TargetedContentContract\1.0.0.0\Windows.Services.TargetedContent.TargetedContentContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Storage.Provider.CloudFilesContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Storage.Provider.CloudFilesContract\4.0.0.0\Windows.Storage.Provider.CloudFilesContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.ProfileHardwareTokenContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.ProfileHardwareTokenContract\1.0.0.0\Windows.System.Profile.ProfileHardwareTokenContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.ProfileSharedModeContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.ProfileSharedModeContract\2.0.0.0\Windows.System.Profile.ProfileSharedModeContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.SystemManufacturers.SystemManufacturersContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.SystemManufacturers.SystemManufacturersContract\3.0.0.0\Windows.System.Profile.SystemManufacturers.SystemManufacturersContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.SystemManagementContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.SystemManagementContract\7.0.0.0\Windows.System.SystemManagementContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.ViewManagement.ViewManagementViewScalingContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.ViewManagement.ViewManagementViewScalingContract\1.0.0.0\Windows.UI.ViewManagement.ViewManagementViewScalingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Xaml.Core.Direct.XamlDirectContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Xaml.Core.Direct.XamlDirectContract\2.0.0.0\Windows.UI.Xaml.Core.Direct.XamlDirectContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.ActivatedEventsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Activation.ActivatedEventsContract\1.0.0.0\Windows.ApplicationModel.Activation.ActivatedEventsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.ActivationCameraSettingsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Activation.ActivationCameraSettingsContract\1.0.0.0\Windows.ApplicationModel.Activation.ActivationCameraSettingsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.ContactActivatedEventsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Activation.ContactActivatedEventsContract\1.0.0.0\Windows.ApplicationModel.Activation.ContactActivatedEventsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract\1.0.0.0\Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract\1.0.0.0\Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Calls.LockScreenCallContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.LockScreenCallContract\1.0.0.0\Windows.ApplicationModel.Calls.LockScreenCallContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.FullTrustAppContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.FullTrustAppContract\1.0.0.0\Windows.ApplicationModel.FullTrustAppContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Preview.InkWorkspace.PreviewInkWorkspaceContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Preview.InkWorkspace.PreviewInkWorkspaceContract\1.0.0.0\Windows.ApplicationModel.Preview.InkWorkspace.PreviewInkWorkspaceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Preview.Notes.PreviewNotesContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Preview.Notes.PreviewNotesContract\2.0.0.0\Windows.ApplicationModel.Preview.Notes.PreviewNotesContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Resources.Management.ResourceIndexerContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Resources.Management.ResourceIndexerContract\2.0.0.0\Windows.ApplicationModel.Resources.Management.ResourceIndexerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Search.Core.SearchCoreContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Search.Core.SearchCoreContract\1.0.0.0\Windows.ApplicationModel.Search.Core.SearchCoreContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Search.SearchContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Search.SearchContract\1.0.0.0\Windows.ApplicationModel.Search.SearchContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Wallet.WalletContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Wallet.WalletContract\1.0.0.0\Windows.ApplicationModel.Wallet.WalletContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Portable.PortableDeviceContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Portable.PortableDeviceContract\1.0.0.0\Windows.Devices.Portable.PortableDeviceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Printers.Extensions.ExtensionsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Printers.Extensions.ExtensionsContract\2.0.0.0\Windows.Devices.Printers.Extensions.ExtensionsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Scanners.ScannerDeviceContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Scanners.ScannerDeviceContract\1.0.0.0\Windows.Devices.Scanners.ScannerDeviceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Sms.LegacySmsApiContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Sms.LegacySmsApiContract\1.0.0.0\Windows.Devices.Sms.LegacySmsApiContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Gaming.Input.GamingInputPreviewContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.Input.GamingInputPreviewContract\1.0.0.0\Windows.Gaming.Input.GamingInputPreviewContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Gaming.Preview.GamesEnumerationContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.Preview.GamesEnumerationContract\2.0.0.0\Windows.Gaming.Preview.GamesEnumerationContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Gaming.UI.GameChatOverlayContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.UI.GameChatOverlayContract\1.0.0.0\Windows.Gaming.UI.GameChatOverlayContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Gaming.UI.GamingUIProviderContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.UI.GamingUIProviderContract\1.0.0.0\Windows.Gaming.UI.GamingUIProviderContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract\1.0.0.0\Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Management.Deployment.Preview.DeploymentPreviewContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Management.Deployment.Preview.DeploymentPreviewContract\1.0.0.0\Windows.Management.Deployment.Preview.DeploymentPreviewContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Management.Workplace.WorkplaceSettingsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Management.Workplace.WorkplaceSettingsContract\1.0.0.0\Windows.Management.Workplace.WorkplaceSettingsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.AppBroadcasting.AppBroadcastingContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.AppBroadcasting.AppBroadcastingContract\1.0.0.0\Windows.Media.AppBroadcasting.AppBroadcastingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.AppRecording.AppRecordingContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.AppRecording.AppRecordingContract\1.0.0.0\Windows.Media.AppRecording.AppRecordingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.AppBroadcastContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Capture.AppBroadcastContract\2.0.0.0\Windows.Media.Capture.AppBroadcastContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.AppCaptureContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Capture.AppCaptureContract\4.0.0.0\Windows.Media.Capture.AppCaptureContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.AppCaptureMetadataContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Capture.AppCaptureMetadataContract\1.0.0.0\Windows.Media.Capture.AppCaptureMetadataContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.CameraCaptureUIContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Capture.CameraCaptureUIContract\1.0.0.0\Windows.Media.Capture.CameraCaptureUIContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.GameBarContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Capture.GameBarContract\1.0.0.0\Windows.Media.Capture.GameBarContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Devices.CallControlContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Devices.CallControlContract\1.0.0.0\Windows.Media.Devices.CallControlContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.MediaControlContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.MediaControlContract\1.0.0.0\Windows.Media.MediaControlContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Playlists.PlaylistsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Playlists.PlaylistsContract\1.0.0.0\Windows.Media.Playlists.PlaylistsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Protection.ProtectionRenewalContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Protection.ProtectionRenewalContract\1.0.0.0\Windows.Media.Protection.ProtectionRenewalContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract\1.0.0.0\Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.XboxLive.XboxLiveSecureSocketsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.XboxLive.XboxLiveSecureSocketsContract\1.0.0.0\Windows.Networking.XboxLive.XboxLiveSecureSocketsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Perception.Automation.Core.PerceptionAutomationCoreContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Perception.Automation.Core.PerceptionAutomationCoreContract\1.0.0.0\Windows.Perception.Automation.Core.PerceptionAutomationCoreContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Security.EnterpriseData.EnterpriseDataContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Security.EnterpriseData.EnterpriseDataContract\5.0.0.0\Windows.Security.EnterpriseData.EnterpriseDataContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Security.ExchangeActiveSyncProvisioning.EasContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Security.ExchangeActiveSyncProvisioning.EasContract\1.0.0.0\Windows.Security.ExchangeActiveSyncProvisioning.EasContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.ProfileRetailInfoContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.ProfileRetailInfoContract\1.0.0.0\Windows.System.Profile.ProfileRetailInfoContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.UserProfile.UserProfileContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.UserProfile.UserProfileContract\2.0.0.0\Windows.System.UserProfile.UserProfileContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.UserProfile.UserProfileLockScreenContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.UserProfile.UserProfileLockScreenContract\1.0.0.0\Windows.System.UserProfile.UserProfileLockScreenContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.ApplicationSettings.ApplicationsSettingsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.ApplicationSettings.ApplicationsSettingsContract\1.0.0.0\Windows.UI.ApplicationSettings.ApplicationsSettingsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Core.AnimationMetrics.AnimationMetricsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Core.AnimationMetrics.AnimationMetricsContract\1.0.0.0\Windows.UI.Core.AnimationMetrics.AnimationMetricsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Core.CoreWindowDialogsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Core.CoreWindowDialogsContract\1.0.0.0\Windows.UI.Core.CoreWindowDialogsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Shell.SecurityAppManagerContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Shell.SecurityAppManagerContract\1.0.0.0\Windows.UI.Shell.SecurityAppManagerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Xaml.Hosting.HostingContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Xaml.Hosting.HostingContract\4.0.0.0\Windows.UI.Xaml.Hosting.HostingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Web.Http.Diagnostics.HttpDiagnosticsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Web.Http.Diagnostics.HttpDiagnosticsContract\2.0.0.0\Windows.Web.Http.Diagnostics.HttpDiagnosticsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Embedded.DeviceLockdown.DeviceLockdownContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Embedded.DeviceLockdown.DeviceLockdownContract\1.0.0.0\Windows.Embedded.DeviceLockdown.DeviceLockdownContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.NetworkOperators.NetworkOperatorsFdnContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.NetworkOperators.NetworkOperatorsFdnContract\1.0.0.0\Windows.Networking.NetworkOperators.NetworkOperatorsFdnContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Phone.PhoneContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Phone.PhoneContract\1.0.0.0\Windows.Phone.PhoneContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Phone.StartScreen.DualSimTileContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Phone.StartScreen.DualSimTileContract\1.0.0.0\Windows.Phone.StartScreen.DualSimTileContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.WebUI.Core.WebUICommandBarContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.WebUI.Core.WebUICommandBarContract\1.0.0.0\Windows.UI.WebUI.Core.WebUICommandBarContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract\1.0.0.0\Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.19041.0\Facade\Windows.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.19041.0\Facade\Windows.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.AI.MachineLearning.MachineLearningContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.AI.MachineLearning.MachineLearningContract\3.0.0.0\Windows.AI.MachineLearning.MachineLearningContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract\2.0.0.0\Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Calls.Background.CallsBackgroundContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract\2.0.0.0\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Calls.CallsPhoneContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.CallsPhoneContract\5.0.0.0\Windows.ApplicationModel.Calls.CallsPhoneContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Calls.CallsVoipContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.CallsVoipContract\4.0.0.0\Windows.ApplicationModel.Calls.CallsVoipContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract\2.0.0.0\Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.SocialInfo.SocialInfoContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.SocialInfo.SocialInfoContract\2.0.0.0\Windows.ApplicationModel.SocialInfo.SocialInfoContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.StartupTaskContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.StartupTaskContract\3.0.0.0\Windows.ApplicationModel.StartupTaskContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Custom.CustomDeviceContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Custom.CustomDeviceContract\1.0.0.0\Windows.Devices.Custom.CustomDeviceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.DevicesLowLevelContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.DevicesLowLevelContract\3.0.0.0\Windows.Devices.DevicesLowLevelContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Printers.PrintersContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Printers.PrintersContract\1.0.0.0\Windows.Devices.Printers.PrintersContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract\3.0.0.0\Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.SmartCards.SmartCardEmulatorContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.SmartCards.SmartCardEmulatorContract\6.0.0.0\Windows.Devices.SmartCards.SmartCardEmulatorContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Foundation.FoundationContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Foundation.UniversalApiContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Gaming.XboxLive.StorageApiContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.XboxLive.StorageApiContract\1.0.0.0\Windows.Gaming.XboxLive.StorageApiContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Graphics.Printing3D.Printing3DContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Graphics.Printing3D.Printing3DContract\4.0.0.0\Windows.Graphics.Printing3D.Printing3DContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.Connectivity.WwanContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.Connectivity.WwanContract\2.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.Sockets.ControlChannelTriggerContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.Sockets.ControlChannelTriggerContract\3.0.0.0\Windows.Networking.Sockets.ControlChannelTriggerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Security.Isolation.IsolatedWindowsEnvironmentContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Security.Isolation.IsolatedWindowsEnvironmentContract\2.0.0.0\Windows.Security.Isolation.IsolatedWindowsEnvironmentContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Services.Maps.GuidanceContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.Maps.GuidanceContract\3.0.0.0\Windows.Services.Maps.GuidanceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Services.Maps.LocalSearchContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.Maps.LocalSearchContract\4.0.0.0\Windows.Services.Maps.LocalSearchContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Services.Store.StoreContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.Store.StoreContract\4.0.0.0\Windows.Services.Store.StoreContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Services.TargetedContent.TargetedContentContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.TargetedContent.TargetedContentContract\1.0.0.0\Windows.Services.TargetedContent.TargetedContentContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Storage.Provider.CloudFilesContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Storage.Provider.CloudFilesContract\4.0.0.0\Windows.Storage.Provider.CloudFilesContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.ProfileHardwareTokenContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.ProfileHardwareTokenContract\1.0.0.0\Windows.System.Profile.ProfileHardwareTokenContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.ProfileSharedModeContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.ProfileSharedModeContract\2.0.0.0\Windows.System.Profile.ProfileSharedModeContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.SystemManufacturers.SystemManufacturersContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.SystemManufacturers.SystemManufacturersContract\3.0.0.0\Windows.System.Profile.SystemManufacturers.SystemManufacturersContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.SystemManagementContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.SystemManagementContract\7.0.0.0\Windows.System.SystemManagementContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.ViewManagement.ViewManagementViewScalingContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.ViewManagement.ViewManagementViewScalingContract\1.0.0.0\Windows.UI.ViewManagement.ViewManagementViewScalingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Xaml.Core.Direct.XamlDirectContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Xaml.Core.Direct.XamlDirectContract\2.0.0.0\Windows.UI.Xaml.Core.Direct.XamlDirectContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.ActivatedEventsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Activation.ActivatedEventsContract\1.0.0.0\Windows.ApplicationModel.Activation.ActivatedEventsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.ActivationCameraSettingsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Activation.ActivationCameraSettingsContract\1.0.0.0\Windows.ApplicationModel.Activation.ActivationCameraSettingsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.ContactActivatedEventsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Activation.ContactActivatedEventsContract\1.0.0.0\Windows.ApplicationModel.Activation.ContactActivatedEventsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract\1.0.0.0\Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract\1.0.0.0\Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Calls.LockScreenCallContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.LockScreenCallContract\1.0.0.0\Windows.ApplicationModel.Calls.LockScreenCallContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.FullTrustAppContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.FullTrustAppContract\1.0.0.0\Windows.ApplicationModel.FullTrustAppContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Preview.InkWorkspace.PreviewInkWorkspaceContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Preview.InkWorkspace.PreviewInkWorkspaceContract\1.0.0.0\Windows.ApplicationModel.Preview.InkWorkspace.PreviewInkWorkspaceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Preview.Notes.PreviewNotesContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Preview.Notes.PreviewNotesContract\2.0.0.0\Windows.ApplicationModel.Preview.Notes.PreviewNotesContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Resources.Management.ResourceIndexerContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Resources.Management.ResourceIndexerContract\2.0.0.0\Windows.ApplicationModel.Resources.Management.ResourceIndexerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Search.Core.SearchCoreContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Search.Core.SearchCoreContract\1.0.0.0\Windows.ApplicationModel.Search.Core.SearchCoreContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Search.SearchContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Search.SearchContract\1.0.0.0\Windows.ApplicationModel.Search.SearchContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Wallet.WalletContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Wallet.WalletContract\1.0.0.0\Windows.ApplicationModel.Wallet.WalletContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Portable.PortableDeviceContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Portable.PortableDeviceContract\1.0.0.0\Windows.Devices.Portable.PortableDeviceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Printers.Extensions.ExtensionsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Printers.Extensions.ExtensionsContract\2.0.0.0\Windows.Devices.Printers.Extensions.ExtensionsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Scanners.ScannerDeviceContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Scanners.ScannerDeviceContract\1.0.0.0\Windows.Devices.Scanners.ScannerDeviceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Sms.LegacySmsApiContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Sms.LegacySmsApiContract\1.0.0.0\Windows.Devices.Sms.LegacySmsApiContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Gaming.Input.GamingInputPreviewContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.Input.GamingInputPreviewContract\1.0.0.0\Windows.Gaming.Input.GamingInputPreviewContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Gaming.Preview.GamesEnumerationContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.Preview.GamesEnumerationContract\2.0.0.0\Windows.Gaming.Preview.GamesEnumerationContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Gaming.UI.GameChatOverlayContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.UI.GameChatOverlayContract\1.0.0.0\Windows.Gaming.UI.GameChatOverlayContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Gaming.UI.GamingUIProviderContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.UI.GamingUIProviderContract\1.0.0.0\Windows.Gaming.UI.GamingUIProviderContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract\1.0.0.0\Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Management.Deployment.Preview.DeploymentPreviewContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Management.Deployment.Preview.DeploymentPreviewContract\1.0.0.0\Windows.Management.Deployment.Preview.DeploymentPreviewContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Management.Workplace.WorkplaceSettingsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Management.Workplace.WorkplaceSettingsContract\1.0.0.0\Windows.Management.Workplace.WorkplaceSettingsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.AppBroadcasting.AppBroadcastingContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.AppBroadcasting.AppBroadcastingContract\1.0.0.0\Windows.Media.AppBroadcasting.AppBroadcastingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.AppRecording.AppRecordingContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.AppRecording.AppRecordingContract\1.0.0.0\Windows.Media.AppRecording.AppRecordingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.AppBroadcastContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Capture.AppBroadcastContract\2.0.0.0\Windows.Media.Capture.AppBroadcastContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.AppCaptureContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Capture.AppCaptureContract\4.0.0.0\Windows.Media.Capture.AppCaptureContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.AppCaptureMetadataContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Capture.AppCaptureMetadataContract\1.0.0.0\Windows.Media.Capture.AppCaptureMetadataContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.CameraCaptureUIContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Capture.CameraCaptureUIContract\1.0.0.0\Windows.Media.Capture.CameraCaptureUIContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.GameBarContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Capture.GameBarContract\1.0.0.0\Windows.Media.Capture.GameBarContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Devices.CallControlContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Devices.CallControlContract\1.0.0.0\Windows.Media.Devices.CallControlContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.MediaControlContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.MediaControlContract\1.0.0.0\Windows.Media.MediaControlContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Playlists.PlaylistsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Playlists.PlaylistsContract\1.0.0.0\Windows.Media.Playlists.PlaylistsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Protection.ProtectionRenewalContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Media.Protection.ProtectionRenewalContract\1.0.0.0\Windows.Media.Protection.ProtectionRenewalContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract\1.0.0.0\Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.XboxLive.XboxLiveSecureSocketsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.XboxLive.XboxLiveSecureSocketsContract\1.0.0.0\Windows.Networking.XboxLive.XboxLiveSecureSocketsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Perception.Automation.Core.PerceptionAutomationCoreContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Perception.Automation.Core.PerceptionAutomationCoreContract\1.0.0.0\Windows.Perception.Automation.Core.PerceptionAutomationCoreContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Security.EnterpriseData.EnterpriseDataContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Security.EnterpriseData.EnterpriseDataContract\5.0.0.0\Windows.Security.EnterpriseData.EnterpriseDataContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Security.ExchangeActiveSyncProvisioning.EasContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Security.ExchangeActiveSyncProvisioning.EasContract\1.0.0.0\Windows.Security.ExchangeActiveSyncProvisioning.EasContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.ProfileRetailInfoContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.ProfileRetailInfoContract\1.0.0.0\Windows.System.Profile.ProfileRetailInfoContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.UserProfile.UserProfileContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.UserProfile.UserProfileContract\2.0.0.0\Windows.System.UserProfile.UserProfileContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.UserProfile.UserProfileLockScreenContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.UserProfile.UserProfileLockScreenContract\1.0.0.0\Windows.System.UserProfile.UserProfileLockScreenContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.ApplicationSettings.ApplicationsSettingsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.ApplicationSettings.ApplicationsSettingsContract\1.0.0.0\Windows.UI.ApplicationSettings.ApplicationsSettingsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Core.AnimationMetrics.AnimationMetricsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Core.AnimationMetrics.AnimationMetricsContract\1.0.0.0\Windows.UI.Core.AnimationMetrics.AnimationMetricsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Core.CoreWindowDialogsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Core.CoreWindowDialogsContract\1.0.0.0\Windows.UI.Core.CoreWindowDialogsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Shell.SecurityAppManagerContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Shell.SecurityAppManagerContract\1.0.0.0\Windows.UI.Shell.SecurityAppManagerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Xaml.Hosting.HostingContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Xaml.Hosting.HostingContract\4.0.0.0\Windows.UI.Xaml.Hosting.HostingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Web.Http.Diagnostics.HttpDiagnosticsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Web.Http.Diagnostics.HttpDiagnosticsContract\2.0.0.0\Windows.Web.Http.Diagnostics.HttpDiagnosticsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Embedded.DeviceLockdown.DeviceLockdownContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Embedded.DeviceLockdown.DeviceLockdownContract\1.0.0.0\Windows.Embedded.DeviceLockdown.DeviceLockdownContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.NetworkOperators.NetworkOperatorsFdnContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.NetworkOperators.NetworkOperatorsFdnContract\1.0.0.0\Windows.Networking.NetworkOperators.NetworkOperatorsFdnContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Phone.PhoneContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Phone.PhoneContract\1.0.0.0\Windows.Phone.PhoneContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Phone.StartScreen.DualSimTileContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Phone.StartScreen.DualSimTileContract\1.0.0.0\Windows.Phone.StartScreen.DualSimTileContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.WebUI.Core.WebUICommandBarContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.WebUI.Core.WebUICommandBarContract\1.0.0.0\Windows.UI.WebUI.Core.WebUICommandBarContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract\1.0.0.0\Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows">
+      <HintPath>D:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.19041.0\Facade\Windows.winmd</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.WindowsRuntime">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\il2cpp\BCLExtensions\System.Runtime.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.WindowsRuntime.UI.Xaml">
+      <HintPath>D:\Unity2019\2019.3.13f1\Editor\Data\il2cpp\BCLExtensions\System.Runtime.WindowsRuntime.UI.Xaml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityEngine.Monetization.Player.csproj">
+      <Project>{7B14C591-6EE1-88FD-9FC2-FC52D38B442B}</Project>
+      <Name>UnityEngine.Monetization.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Player.csproj">
+      <Project>{A6E76C00-EC28-1BE3-B094-A75DDA603F2F}</Project>
+      <Name>Unity.Burst.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Jobs.Player.csproj">
+      <Project>{BACF6241-202A-0A92-65B3-D6ABF22BEE0D}</Project>
+      <Name>Unity.Jobs.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Advertisements.Player.csproj">
+      <Project>{0086E45E-B900-F62F-7CB1-8643CF404E43}</Project>
+      <Name>UnityEngine.Advertisements.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Collections.Player.csproj">
+      <Project>{DEBBD7C0-3B84-35FD-0632-89CE65EEE607}</Project>
+      <Name>Unity.Collections.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Properties.UI.Player.csproj">
+      <Project>{13B01717-615C-2C68-44FB-6D9533B88DE3}</Project>
+      <Name>Unity.Properties.UI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Properties.Player.csproj">
+      <Project>{8F17D9D8-4D2B-844C-37FE-FC7446A30057}</Project>
+      <Name>Unity.Properties.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
+      <Project>{0F5A4DB7-7D7E-84A9-A3A7-05274FC17E47}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Scenes.Hybrid.Player.csproj">
+      <Project>{0844372A-2516-1B3A-5E7E-06845F6A418F}</Project>
+      <Name>Unity.Scenes.Hybrid.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Extensions.Player.csproj">
+      <Project>{10A9D30A-0E72-FA3E-9052-65AF583FBE3D}</Project>
+      <Name>Unity.Mathematics.Extensions.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Player.csproj">
+      <Project>{310FB3E4-2FF6-B344-72FC-FF3820F66CB0}</Project>
+      <Name>Unity.Recorder.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Extensions.Hybrid.Player.csproj">
+      <Project>{F36E1F37-1476-2361-C19B-7B8F95DAC84E}</Project>
+      <Name>Unity.Mathematics.Extensions.Hybrid.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Player.csproj">
+      <Project>{31AC8158-7C83-018B-709E-1EF63B6E8227}</Project>
+      <Name>Unity.Timeline.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Generated.AI.Planner.StateRepresentation.Player.csproj">
+      <Project>{4CCBE7AD-AD6A-9043-6847-87959C7F6027}</Project>
+      <Name>Generated.AI.Planner.StateRepresentation.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Planner.Player.csproj">
+      <Project>{D4057FA1-A72C-0E82-5A12-EDE41D6F31B9}</Project>
+      <Name>Unity.AI.Planner.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Serialization.Player.csproj">
+      <Project>{B37A91B4-7531-874D-2E9D-8BA5884D9E0A}</Project>
+      <Name>Unity.Serialization.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Base.Player.csproj">
+      <Project>{B6424AAC-0CE5-3B4C-35F8-61588EFFB2D4}</Project>
+      <Name>Unity.Recorder.Base.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Hybrid.Player.csproj">
+      <Project>{8AEA7E26-7AA1-0A53-EF54-F5614B77DFDC}</Project>
+      <Name>Unity.Entities.Hybrid.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Player.csproj">
+      <Project>{23643C63-1FB4-CA12-556D-82014FDEF06D}</Project>
+      <Name>Unity.Mathematics.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Deformations.Player.csproj">
+      <Project>{C29C4D5F-ABC5-01EE-AD0C-C3CB13675A16}</Project>
+      <Name>Unity.Deformations.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlayableGraphVisualizer.Player.csproj">
+      <Project>{BAA9A467-FE17-42A6-58E0-C22424B8C23B}</Project>
+      <Name>Unity.PlayableGraphVisualizer.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Player.csproj">
+      <Project>{52A479A7-ABFD-08F9-7C36-D39EABAACC6C}</Project>
+      <Name>Unity.Entities.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Transforms.Player.csproj">
+      <Project>{0ED7A64E-9C4C-5438-CC71-F6755E36C24F}</Project>
+      <Name>Unity.Transforms.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ScriptableBuildPipeline.Player.csproj">
+      <Project>{0FBB3E06-9559-F343-F1B7-63CCC756848D}</Project>
+      <Name>Unity.ScriptableBuildPipeline.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
+      <Project>{A4B6F7D5-5CA2-0A88-F5C2-C9C092E9E2A1}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
+      <Project>{F1CA471D-22AC-18A9-132D-9C670FF66678}</Project>
+      <Name>Unity.TextMeshPro.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Transforms.Hybrid.Player.csproj">
+      <Project>{C5C467E8-1E17-4785-C7DE-34D7BB68D58C}</Project>
+      <Name>Unity.Transforms.Hybrid.Player</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\CodelessIAPStoreListener.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\ComboBox.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\Demo\DemoInventory.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPButton.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPConfigurationHelper.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPDemo.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPDemoProductUI.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPListener.cs" />
+    <Compile Include="Assets\Plugins\UnityPurchasing\script\PurchasingCheck.cs" />
+    <Compile Include="Assets\Plugins\WebSocket\SocketWebTcp.cs" />
+    <Compile Include="Assets\Plugins\WebSocket\WebSocket.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.165_manifest.txt" />
+    <None Include="Assets\Firebase\Editor\AnalyticsDependencies.xml" />
+    <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
+    <None Include="Assets\Firebase\Editor\FirebaseAnalytics_version-7.2.0_manifest.txt" />
+    <None Include="Assets\Firebase\Editor\FirebaseMessaging_version-7.2.0_manifest.txt" />
+    <None Include="Assets\Firebase\Editor\MessagingDependencies.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-messaging-unity\maven-metadata.xml" />
+    <None Include="Assets\GooglePlayGames\Editor\GooglePlayGamesPluginDependencies.xml" />
+    <None Include="Assets\GooglePlayGames\Editor\GooglePlayGamesPlugin_v0.10.12.txt" />
+    <None Include="Assets\GooglePlayGames\Editor\m2repository\com\google\games\gpgs-plugin-support\maven-metadata.xml" />
+    <None Include="Assets\GooglePlayGames\Editor\template-AndroidManifest.txt" />
+    <None Include="Assets\GooglePlayGames\Editor\template-Constants.txt" />
+    <None Include="Assets\GooglePlayGames\Editor\template-GameInfo.txt" />
+    <None Include="Assets\GooglePlayGames\Plugins\Android\GooglePlayGamesManifest.plugin\AndroidManifest.xml" />
+    <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
+    <None Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Assets\OpenSans\Apache License.txt" />
+    <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
+    <None Include="Assets\Photon Unity Networking\Demos\Shared Assets\Skin\3dText.shader" />
+    <None Include="Assets\Photon Unity Networking\changelog.txt" />
+    <None Include="Assets\Photon Unity Networking\link.xml" />
+    <None Include="Assets\Photon Unity Networking\readme.txt" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\res\values\google-services.xml" />
+    <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+    <None Include="Assets\Plugins\UnityPurchasing\Editor\IAPGeneratedCredentials.cs.template" />
+    <None Include="Assets\Plugins\UnityPurchasing\license.txt" />
+    <None Include="Assets\Plugins\UnityPurchasing\script\link.xml" />
+    <None Include="Assets\Plugins\UnityPurchasing\third party notices.txt" />
+    <None Include="Assets\Plugins\changes-library.txt" />
+    <None Include="Assets\Scripts\Blur.shader" />
+    <None Include="Assets\StreamingAssets\TestResults.xml" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Packages\com.unity.2d.sprite\Editor\UI\SpriteEditor\PolygonChangeShapeWindow.uxml" />
+    <None Include="Packages\com.unity.2d.sprite\Editor\UI\SpriteEditor\SpriteEditor.uss" />
+    <None Include="Packages\com.unity.2d.sprite\Editor\UI\SpriteEditor\SpriteFrameModuleInspector.uxml" />
+    <None Include="Packages\com.unity.ai.planner\Editor\Templates\ActionSchedulerTemplate.txt" />
+    <None Include="Packages\com.unity.ai.planner\Editor\Templates\ActionTemplate.txt" />
+    <None Include="Packages\com.unity.ai.planner\Editor\Templates\AsmRefTemplate.txt" />
+    <None Include="Packages\com.unity.ai.planner\Editor\Templates\EnumTemplate.txt" />
+    <None Include="Packages\com.unity.ai.planner\Editor\Templates\PackageTemplate.txt" />
+    <None Include="Packages\com.unity.ai.planner\Editor\Templates\PlanExecutorTemplate.txt" />
+    <None Include="Packages\com.unity.ai.planner\Editor\Templates\StateRepresentationTemplate.txt" />
+    <None Include="Packages\com.unity.ai.planner\Editor\Templates\TerminationTemplate.txt" />
+    <None Include="Packages\com.unity.ai.planner\Editor\Templates\TraitTemplate.txt" />
+    <None Include="Packages\com.unity.ai.planner\Runtime\Modules\Navigation\CustomMethods\AI.Planner.Custom.asmref" />
+    <None Include="Packages\com.unity.ai.planner\Runtime\Modules\Navigation\CustomTraits\AI.Planner.StateRepresentation.asmref" />
+    <None Include="Packages\com.unity.burst\Unity.Burst.Unsafe.xml" />
+    <None Include="Packages\com.unity.device-simulator\SimulatorResources\StyleSheets\styles_common.uss" />
+    <None Include="Packages\com.unity.device-simulator\SimulatorResources\StyleSheets\styles_dark.uss" />
+    <None Include="Packages\com.unity.device-simulator\SimulatorResources\StyleSheets\styles_light.uss" />
+    <None Include="Packages\com.unity.device-simulator\SimulatorResources\StyleSheets\styles_settings.uss" />
+    <None Include="Packages\com.unity.device-simulator\SimulatorResources\StyleSheets\styles_split_view.uss" />
+    <None Include="Packages\com.unity.device-simulator\SimulatorResources\UXML\ui_application_settings.uxml" />
+    <None Include="Packages\com.unity.device-simulator\SimulatorResources\UXML\ui_device_simulator.uxml" />
+    <None Include="Packages\com.unity.device-simulator\SimulatorResources\UXML\ui_project_settings.uxml" />
+    <None Include="Packages\com.unity.device-simulator\SimulatorResources\UXML\ui_screen_settings.uxml" />
+    <None Include="Packages\com.unity.device-simulator\SimulatorResources\UXML\ui_user_settings.uxml" />
+    <None Include="Packages\com.unity.entities\Editor\LiveLink\uss\LiveLinkConnectionsDropdown.uss" />
+    <None Include="Packages\com.unity.entities\Editor\LiveLink\uss\LiveLinkConnectionsDropdown_dark.uss" />
+    <None Include="Packages\com.unity.entities\Editor\LiveLink\uss\LiveLinkConnectionsDropdown_light.uss" />
+    <None Include="Packages\com.unity.entities\Editor\LiveLink\uss\StartLiveLinkWindow.uss" />
+    <None Include="Packages\com.unity.entities\Editor\LiveLink\uss\StartLiveLinkWindow_dark.uss" />
+    <None Include="Packages\com.unity.entities\Editor\LiveLink\uss\StartLiveLinkWindow_light.uss" />
+    <None Include="Packages\com.unity.entities\Editor\LiveLink\uxml\LiveLinkConnectionsDropdown.GroupItemTemplate.uxml" />
+    <None Include="Packages\com.unity.entities\Editor\LiveLink\uxml\LiveLinkConnectionsDropdown.GroupTemplate.uxml" />
+    <None Include="Packages\com.unity.entities\Editor\LiveLink\uxml\LiveLinkConnectionsDropdown.uxml" />
+    <None Include="Packages\com.unity.entities\Editor\LiveLink\uxml\StartLiveLinkWindow.ListViewItemTemplate.uxml" />
+    <None Include="Packages\com.unity.entities\Editor\LiveLink\uxml\StartLiveLinkWindow.uxml" />
+    <None Include="Packages\com.unity.entities\Unity.Core\Unity.Core.asmref" />
+    <None Include="Packages\com.unity.entities\Unity.Entities.Editor\PostprocessedILInspector\ILPostProcessorWindow.uss" />
+    <None Include="Packages\com.unity.entities\Unity.Entities.Editor\PostprocessedILInspector\ILPostProcessorWindow.uxml" />
+    <None Include="Packages\com.unity.entities\Unity.Entities.Editor\ScriptTemplates\AuthoringComponent.txt" />
+    <None Include="Packages\com.unity.entities\Unity.Entities.Editor\ScriptTemplates\RunTimeComponent.txt" />
+    <None Include="Packages\com.unity.entities\Unity.Entities.Editor\ScriptTemplates\System.txt" />
+    <None Include="Packages\com.unity.ext.nunit\net35\unity-custom\This is a custom build DONT include.txt" />
+    <None Include="Packages\com.unity.ext.nunit\net35\unity-custom\nunit.framework.xml" />
+    <None Include="Packages\com.unity.platforms\Editor\Unity.Build.Editor\uss\BuildConfiguration.uss" />
+    <None Include="Packages\com.unity.platforms\Editor\Unity.Build.Editor\uss\BuildConfiguration_dark.uss" />
+    <None Include="Packages\com.unity.platforms\Editor\Unity.Build.Editor\uss\BuildConfiguration_light.uss" />
+    <None Include="Packages\com.unity.platforms\Editor\Unity.Build.Editor\uss\BuildPipelineCustomInspector.uss" />
+    <None Include="Packages\com.unity.platforms\Editor\Unity.Build.Editor\uss\BuildPipelineCustomInspector_dark.uss" />
+    <None Include="Packages\com.unity.platforms\Editor\Unity.Build.Editor\uss\BuildPipelineCustomInspector_light.uss" />
+    <None Include="Packages\com.unity.platforms\Editor\Unity.Build.Editor\uss\HierarchicalComponentContainer.uss" />
+    <None Include="Packages\com.unity.platforms\Editor\Unity.Build.Editor\uss\HierarchicalComponentContainer_dark.uss" />
+    <None Include="Packages\com.unity.platforms\Editor\Unity.Build.Editor\uss\HierarchicalComponentContainer_light.uss" />
+    <None Include="Packages\com.unity.platforms\Editor\Unity.Build.Editor\uxml\BuildPipelineCustomInspector.uxml" />
+    <None Include="Packages\com.unity.platforms\Editor\Unity.Build.Editor\uxml\TypeInspector.uxml" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\add-collection-item.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\circular-reference.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\common.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\common_dark.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\common_light.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\key-value-pair.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\lazy-load-reference.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\list-element-default.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\list-element.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\null-string-field.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\nullable-foldout.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\pagination-element.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\set-element-default.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uss\set-element.uss" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uxml\add-collection-item.uxml" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uxml\circular-reference.uxml" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uxml\key-value-pair.uxml" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uxml\lazy-load-reference.uxml" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uxml\null-string-field.uxml" />
+    <None Include="Packages\com.unity.properties.ui\Editor Default Resources\uxml\pagination-element.uxml" />
+    <None Include="Packages\com.unity.recorder\Editor\Sources\Recorders\_Inputs\Camera\Shaders\CameraInputCopy.shader" />
+    <None Include="Packages\com.unity.recorder\Editor\Sources\Recorders\_Inputs\Camera\Shaders\CopyFB.shader" />
+    <None Include="Packages\com.unity.recorder\Editor\Sources\Recorders\_Inputs\Camera\Shaders\MakeOpaque.shader" />
+    <None Include="Packages\com.unity.recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\Shaders\BS4Accumulate.shader" />
+    <None Include="Packages\com.unity.recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\Shaders\BS4Normalize.shader" />
+    <None Include="Packages\com.unity.recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\Shaders\BS4SuperShader.shader" />
+    <None Include="Packages\com.unity.recorder\Editor\Sources\Resources\Styles\recorder.uss" />
+    <None Include="Packages\com.unity.recorder\Editor\Sources\Resources\Styles\recorder_darkSkin.uss" />
+    <None Include="Packages\com.unity.recorder\Editor\Sources\Resources\Styles\recorder_lightSkin.uss" />
+    <None Include="Packages\com.unity.render-pipelines.core\Editor\Gizmo\UnlitGizmo.shader" />
+    <None Include="Packages\com.unity.render-pipelines.core\Editor\LookDev\Compositor.shader" />
+    <None Include="Packages\com.unity.render-pipelines.core\Editor\LookDev\CubeToLatlong.shader" />
+    <None Include="Packages\com.unity.render-pipelines.core\Editor\LookDev\DisplayWindow-PersonalSkin.uss" />
+    <None Include="Packages\com.unity.render-pipelines.core\Editor\LookDev\DisplayWindow.uss" />
+    <None Include="Packages\com.unity.render-pipelines.core\Editor\LookDev\Inspectors.uss" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\ACES.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\D3D11.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\GLCore.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\GLES2.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\GLES3.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\Metal.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\Switch.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\Validate.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\Vulkan.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\AreaLighting.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\BC6H.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\BSDF.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Color.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Common.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\CommonDeprecated.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\CommonLighting.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\CommonMaterial.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\CommonShadow.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Debug.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\EntityLighting.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Filtering.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\GeometricTools.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\ImageBasedLighting.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Macros.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\NormalSurfaceGradient.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Packing.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\PerPixelDisplacement.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\PhysicalCamera.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Random.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Refraction.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\SDF2D.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\Fibonacci.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\Hammersley.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\SampleUVMapping.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\SampleUVMappingInternal.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\SampleUVMappingNormalInternal.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\Sampling.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Shadow\ShadowSamplingTent.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\SpaceFillingCurves.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\SpaceTransforms.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Tessellation.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\UnityInstancing.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Version.hlsl" />
+    <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\VolumeRendering.hlsl" />
+    <None Include="Packages\com.unity.searcher\Editor\Resources\Searcher.uss" />
+    <None Include="Packages\com.unity.searcher\Editor\Resources\SearcherItem.uxml" />
+    <None Include="Packages\com.unity.searcher\Editor\Resources\SearcherWindow.uxml" />
+    <None Include="Packages\com.unity.test-framework.performance\Editor\TestReportGraph\TestReportShader.shader" />
+    <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_Properties.cginc" />
+    <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_SDF Internal SSD.shader" />
+    <None Include="Packages\com.unity.timeline\Editor\StyleSheets\Extensions\common.uss" />
+    <None Include="Packages\com.unity.timeline\Editor\StyleSheets\Extensions\dark.uss" />
+    <None Include="Packages\com.unity.timeline\Editor\StyleSheets\Extensions\light.uss" />
+    <None Include="Packages\com.unity.timeline\Editor\StyleSheets\res\Timeline_DarkSkin.txt" />
+    <None Include="Packages\com.unity.timeline\Editor\StyleSheets\res\Timeline_LightSkin.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

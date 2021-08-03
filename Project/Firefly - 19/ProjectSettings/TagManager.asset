@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemie
+  - WallLeft
+  - Hornet
+  - Ground
+  - Raindrop
+  - Shield
+  - GPs
+  - Coins
+  - joystick
+  - PlayerBody
+  - Hand
+  - Swatter
+  - DieScreen
+  - MoveSpot
+  - DieParticle
+  - DDOL
+  - Minimap
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - warn
+  - PostProcessing
+  - Minimap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Gras
+    uniqueID: 171443867
+    locked: 0
+  - name: MipMap
+    uniqueID: 2325356539
+    locked: 0
